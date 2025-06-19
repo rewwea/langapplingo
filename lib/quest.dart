@@ -71,14 +71,14 @@ class _QuestState extends State<Quest> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Test'),
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: const Color.fromARGB(255, 148, 255, 77),
         centerTitle: true,
       ),
       body: ListView.builder(
         itemCount: quests.length,
         itemBuilder: (context, index) {
           return Card(
-            color: const Color.fromARGB(255, 233, 208, 255),
+            color: const Color.fromARGB(255, 153, 238, 189),
             margin: EdgeInsets.all(16.0),
             child: Padding(
               padding: EdgeInsets.all(16.0),
@@ -111,8 +111,8 @@ class _QuestState extends State<Quest> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.deepPurpleAccent,
-        hoverColor: Colors.deepPurple,
+        backgroundColor: const Color.fromARGB(255, 75, 255, 4),
+        hoverColor: const Color.fromARGB(255, 4, 94, 1),
         onPressed: () {
           int finalScore = calculateScore();
           showDialog(

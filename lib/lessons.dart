@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'lessonsdetails.dart';
 import 'quest.dart';
 
+
 class Lessons extends StatelessWidget {
   const Lessons({super.key});
 
@@ -10,7 +11,7 @@ class Lessons extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Lessons'),
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Colors.indigo,
         centerTitle: true,
       ),
       body: ListView(

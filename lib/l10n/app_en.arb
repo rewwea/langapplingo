@@ -1,0 +1,9 @@
+{
+	"@@locale" : "en",
+	"titleSettings" : "Settings",
+	"@titleSettings": {},
+	"theme" : "Switch theme",
+	"@theme": {},
+	"lenguage" : "Change lenguage",
+	"@lenguage": {},
+}

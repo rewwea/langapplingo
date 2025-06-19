@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'lessons.dart';
+import 'vocabulary.dart';
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
@@ -27,9 +28,13 @@ class MenuScreen extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             ElevatedButton(
-              onPressed: () {
+              onPressed: ()  {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => VocabularyScreen()),
+                );
               },
-              child: const Text('Dictionary', style: TextStyle(fontSize: 20)),
+              child: const Text('Vocabulary', style: TextStyle(fontSize: 20)),
             ),
             const SizedBox(height: 16),
             ElevatedButton(
